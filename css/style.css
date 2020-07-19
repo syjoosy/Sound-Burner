@@ -71,12 +71,15 @@ header .all-header .header-main img {
   margin-top: 5px;
 }
 
+.btn.reg {
+
+}
 
 header .all-header .header-main a {
   float: left;
   color: #000;
   font-weight: 800;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 15px;
 }
 
