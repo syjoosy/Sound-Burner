@@ -24,8 +24,8 @@ header {
 }
 
 header .all-header {
-  width: 60%;
-  margin: 0 20%;
+  width: calc(1em + 60vw);
+  margin: 0 calc(1em + 20vw);
 }
 
 
@@ -53,7 +53,7 @@ header .all-header .header-main {
 }
 
 header .all-header .header-main img {
-  height: 50px;
+  height: calc(1em + 2vw);
   float: left;
 }
 
@@ -62,7 +62,7 @@ header .all-header .header-main img {
   margin-left: 20px;
   border: 0;
   background: #ECECEC;
-  width: 360px;
+  width: calc(1em + 15vw);
   height: 44px;
   font-weight: 300;
   font-size: 12px;
@@ -71,15 +71,12 @@ header .all-header .header-main img {
   margin-top: 5px;
 }
 
-.btn.reg {
-
-}
 
 header .all-header .header-main a {
   float: left;
   color: #000;
   font-weight: 800;
-  margin-left: 20px;
+  margin-left: calc(1em + 4vw);
   margin-top: 15px;
 }
 
@@ -89,7 +86,7 @@ header .all-header .header-main .btn {
   cursor: pointer;
   float: right;
   width: 86px;
-  margin-left: 20px;
+  margin-left: calc(1em + 2vw);
   height: 40px;
   font-weight: 800;
   border: 2px solid #000;
@@ -97,7 +94,7 @@ header .all-header .header-main .btn {
   line-height: 40px;
 }
 
-header .all-header .header-main .btn.reg {width: 140px}
+header .all-header .header-main .btn.reg {width: calc(1em + 8vw)}
 
 header .all-header .header-main .btn.reg,
 header .all-header .header-main .btn.auth:hover {
@@ -173,7 +170,10 @@ main .section .img-block .button-play {
   display: none;
 }
 
-footer {
+.content {
+  min-height: calc(100vh - 80px);
+}
+.footer {
   width: 100%;
   float: left;
   background: #151719;
@@ -182,3 +182,14 @@ footer {
   padding: 20px 0;
   font-weight: 300;
 }
+
+/*footer {
+  width: 100%;
+  float: left;
+  background: #151719;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 300;
+}
+*/
